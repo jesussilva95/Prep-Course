@@ -199,11 +199,10 @@ function doWhile(numero) {
   var contadorDeVueltas = 0;
   do {
     numero = numero + 5;
-    contadorDeVueltas + contadorDeVueltas + 1;
+    contadorDeVueltas = contadorDeVueltas + 1;
   } while (contadorDeVueltas < 8);
   return numero;
 }
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
